@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main p-3">
+        <div class="w-100 table">
+            <table class=" table-hover m-0 " style="background-color: #28C4AF;" id="example">
+              <thead class="text-white">
+                <tr class="text-center">
+                  <th>No</th>
+                  <th>Name</th>
+                  <th>List Of Courses</th>
+                  <th>Total No. Of Courses</th>
+                  <th>Ph No.</th>
+                  <th>Email</th>
+                  <th>Account Status</th>
+                  <th>Courses Registration</th>
+                </tr>
+              </thead>
+              <tbody  class="text-center">
+                <tr>
+                  <th>1</th>
+                  <td >Mark</td>
+                  <td class="">
+                      <div class="dropdown" >
+                          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Course
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <span class="dropdown-item">Action Something els</span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Another action</span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Something else here</span><div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Something else here Something else here Something else here</span><div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Something else here </span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Action</span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Another action</span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Something else here</span><div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Something else here</span><div class="dropdown-divider"></div>
+                          </div>
+                      </div>
+                  </td>
+                  <td>10</td>
+                  <td>09971234567</td>
+                  <td>blabal@gmail.com</td>
+                  <td><span class="bg-success text-white px-2 py-1 rounded-3">Verified</span></td>
+                  <td><a href="" class="text-decoration-none bg-dark text-white px-2 py-1 rounded">Add Course</a></td>
+                </tr>
+                <tr>
+                  <th>1</th>
+                  <td >Mark</td>
+                  <td class="">
+                      <div class="dropdown" >
+                          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Course
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <span class="dropdown-item">Action Something els</span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Another action</span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Something else here</span><div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Something else here Something else here Something else here</span><div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Something else here </span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Action</span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Another action</span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Something else here</span><div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Something else here</span><div class="dropdown-divider"></div>
+                          </div>
+                      </div>
+                  </td>
+                  <td>10</td>
+                  <td>09971234567</td>
+                  <td>blabal@gmail.com</td>
+                  <td><span class="bg-warning text-white px-2 py-1 rounded-3">Requested</span></td>
+                  <td><a href="" class="text-decoration-none bg-dark text-white px-2 py-1 rounded">Add Course</a></td>
+                </tr>
+                <tr>
+                  <th>1</th>
+                  <td >Mark</td>
+                  <td class="">
+                      <div class="dropdown" >
+                          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Course
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <span class="dropdown-item">Action Something els</span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Another action</span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Something else here</span><div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Something else here Something else here Something else here</span><div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Something else here </span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Action</span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Another action</span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Something else here</span><div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Something else here</span><div class="dropdown-divider"></div>
+                          </div>
+                      </div>
+                  </td>
+                  <td>10</td>
+                  <td>09971234567</td>
+                  <td>blabal@gmail.com</td>
+                  <td><span class="bg-success text-white px-2 py-1 rounded-3">Verified</span></td>
+                  <td><a href="" class="text-decoration-none bg-dark text-white px-2 py-1 rounded">Add Course</a></td>
+                </tr>
+                <tr>
+                  <th>1</th>
+                  <td >Mark</td>
+                  <td class="">
+                      <div class="dropdown" >
+                          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Course
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <span class="dropdown-item">Action Something els</span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Another action</span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Something else here</span><div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Something else here Something else here Something else here</span><div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Something else here </span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Action</span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Another action</span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Something else here</span><div class="dropdown-divider"></div>
+                            <span class="dropdown-item">Something else here</span><div class="dropdown-divider"></div>
+                          </div>
+                      </div>
+                  </td>
+                  <td>10</td>
+                  <td>09971234567</td>
+                  <td>blabal@gmail.com</td>
+                  <td><span class="bg-warning text-white px-2 py-1 rounded-3">Requested</span></td>
+                  <td><a href="" class="text-decoration-none bg-dark text-white px-2 py-1 rounded">Add Course</a></td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+        <div class="mobile-view d-none">
+          <div class="mobile-item card">
+            <div class="card-header">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="">
+                  <img src="./01-shutterstock_476340928-Irina-Bg.jpg" class="img-fluid rounded-circle" alt="">
+                  <span class="fw-bold text-white">Teacher Sue</span>
+                </div>
+                <div class="btn btn-dark btn-sm">
+                  <a href="#" class="text-decoration-none text-white">Add Course</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-body text-white">
+              <div class="dropdown position-relative">
+                <button class="btn text-start w-100 dropdown-toggle px-0 text-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  List Of Courses
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <span class="dropdown-item">Action</span>
+                  <div class="dropdown-divider"></div>
+                  <span class="dropdown-item">Another action</span>
+                  <div class="dropdown-divider"></div>
+                  <span class="dropdown-item">Something else here Something else here Something else here Something else here</span><div class="dropdown-divider"></div>
+                  <span class="dropdown-item">Something else here</span><div class="dropdown-divider"></div>
+                  <span class="dropdown-item">Something else here</span>
+                  <span class="dropdown-item">Action</span>
+                  <div class="dropdown-divider"></div>
+                  <span class="dropdown-item">Another action</span>
+                  <div class="dropdown-divider"></div>
+                  <span class="dropdown-item">Something else here</span><div class="dropdown-divider"></div>
+                  <span class="dropdown-item">Something else here</span><div class="dropdown-divider"></div>
+                </div>
+              </div>
+              <div class="my-2">
+                <span class="fw-bold">Account Status -</span>
+                <span class="mx-2"><span class="bg-success px-2 py-1 rounded-3 text-white">Verified</span></span>
+              </div>
+              <div class="my-2">
+                <span class="fw-bold">Total No. Of Courses -</span>
+                <span class="mx-2">2</span>
+              </div>
+              <div class="d-flex align-items-center flex-wrap">
+                <div class="my-2 mx-2">
+                  <i class="fa-solid fa-phone"></i>
+                  <span class="mx-2">09876764778</span>
+                </div>
+                <div class="my-2 mx-2">
+                  <i class="fa-solid fa-envelope"></i>
+                  <span class="mx-2">sue@gmail.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mobile-item card">
+            <div class="card-header">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="">
+                  <img src="./01-shutterstock_476340928-Irina-Bg.jpg" class="img-fluid rounded-circle" alt="">
+                  <span class="fw-bold text-white">Teacher Sue</span>
+                </div>
+                <div class="btn btn-dark btn-sm">
+                  <a href="#" class="text-decoration-none text-white">Add Course</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-body text-white">
+              <div class="dropdown position-relative">
+                <button class="btn text-start w-100 dropdown-toggle px-0 text-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  List Of Courses
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <span class="dropdown-item">Action</span>
+                  <div class="dropdown-divider"></div>
+                  <span class="dropdown-item">Another action</span>
+                  <div class="dropdown-divider"></div>
+                  <span class="dropdown-item">Something else here Something else here Something else here Something else here</span><div class="dropdown-divider"></div>
+                  <span class="dropdown-item">Something else here</span><div class="dropdown-divider"></div>
+                  <span class="dropdown-item">Something else here</span>
+                  <span class="dropdown-item">Action</span>
+                  <div class="dropdown-divider"></div>
+                  <span class="dropdown-item">Another action</span>
+                  <div class="dropdown-divider"></div>
+                  <span class="dropdown-item">Something else here</span><div class="dropdown-divider"></div>
+                  <span class="dropdown-item">Something else here</span><div class="dropdown-divider"></div>
+                </div>
+              </div>
+              <div class="my-2">
+                <span class="fw-bold">Account Status -</span>
+                <span class="mx-2"><span class="bg-warning px-2 py-1 text-white rounded-3">Requested</span></span>
+              </div>
+              <div class="my-2">
+                <span class="fw-bold">Total No. Of Courses -</span>
+                <span class="mx-2">2</span>
+              </div>
+              <div class="d-flex align-items-center flex-wrap">
+                <div class="my-2 mx-2">
+                  <i class="fa-solid fa-phone"></i>
+                  <span class="mx-2">09876764778</span>
+                </div>
+                <div class="my-2 mx-2">
+                  <i class="fa-solid fa-envelope"></i>
+                  <span class="mx-2">sue@gmail.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+          integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+          crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+          integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+          crossorigin="anonymous"></script>
+          <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+      <script>
+        $(document).ready(function () {
+         $('').DataTable();
+        });
+        $('#example').DataTable( {
+          responsive: true
+        } );
+      </script>
+</body>
+</html>
